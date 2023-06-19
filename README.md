@@ -120,11 +120,6 @@ func BestChanel(ifname string, chain ap.SelectionChain) (int, error) {
 - [x] Add a `weight` to each criteria.
 - [x] Add a `SelectionChain` to select the best channel.
 - [x] Add a `SelectionMiddleware` to define your own selection algorithm.
-- [ ] Enhance the scoring algorithm or provide a way to define your own scoring algorithm.
-- [ ] Add verbosity level.
-- [ ] Add a `--json` flag to output the result in json format.
-- [ ] Add a `--csv` flag to output the result in csv format.
-- [ ] Add a `--yaml` flag to output the result in yaml format.
 
 # License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
